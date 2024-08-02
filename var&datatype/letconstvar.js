@@ -10,4 +10,5 @@ const age =  24;
 console.log(age);
 
 let a;
-console.log(a);
+//const a; not possible because const variables must be initialized with a value
+console.log(a);   // this give output undefined because the value of a is not defined 
